@@ -1,0 +1,99 @@
+@import "compass/css3";
+
+html, body {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.4;
+    height: 100%;
+
+    margin: 0;
+    padding: 0;
+}
+a {text-decoration: none; color: inherit;}
+.container{
+    padding-top: 66px;
+    margin: 0 50px;
+
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 66px;
+
+    line-height: 66px;
+    color: #FFF;
+
+    background-color: #2e7d32;
+}
+
+.header__logo {
+    font-weight: bold;
+    padding: 0 25px;
+    float: left;
+}
+
+.menu {
+    float: left;
+}
+.menu a { padding: 0 10px;
+}
+.menu a:hover { color:#c6ff00;
+}
+
+/*-------------- RESPONSIVE ---------------------*/
+
+@media only screen and (max-width: 750px) {
+    .header__icon{
+        display: block;
+        float: left;
+        position: relative;
+        left: 0;
+        top: 0;
+        width: 66px;
+        height: 66px;
+
+        transition: transform 0.5s;
+    }
+
+    .header__icon span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+
+        display: block;
+        width: 22px;
+        height: 2px;
+
+        background-color: #FFF;
+
+        transition: background 0.5s;
+    }
+    .header__icon span::before, .header__icon span::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translateY(-6px);
+
+        display: block;
+        width: 22px;
+        height: 2px;
+
+        background-color: #FFF;
+
+        transition: transform 0.5s;
+    }
+
+    .header__icon span::after {
+        transform: translateY(6px);
+    }
+
+    .header__icon.is-opened span { background: transparent; }
+    .header__icon.is-opened span::before { transform: translateY(0) rotate(45deg); }
+    .header__icon.is-opened span::after { transform: translateY(0) rotate(-45deg); }
+    .menu-icon.is-opened { transform: rotate(180deg); }
+}
