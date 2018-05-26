@@ -2,5 +2,6 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('', views.accueil),
+    path('', views.index),
+    path('<slug>', views.page)
 ]

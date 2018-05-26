@@ -7,12 +7,12 @@ class Page(models.Model):
     Ils contiennent :
     titre -- le titre de la page
     contenu -- le conteu au format HTML
-    slug -- url
+    slug -- la fin de l'url
     """
 
     titre = models.CharField(max_length=100)
     contenu = models.TextField(null=True)
-    slug = models.CharField(max_length=100)
+    slug = models.SlugField(max_length=100, null=True)
 
     def __str__(self):
         return self.titre
