@@ -6,83 +6,155 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>http://www.pycolore.fr/</loc>
-  <lastmod>2018-05-23T07:58:00Z</lastmod>
+  <loc>https://www.pycolore.fr/</loc>
+  <lastmod>2018-08-04T13:46:00Z</lastmod>
  </url>
  <url>
-  <loc>http://www.pycolore.fr/2018/</loc>
-  <lastmod>2018-05-23T07:58:00Z</lastmod>
+  <loc>https://www.pycolore.fr/2018/</loc>
+  <lastmod>2018-06-01T06:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://www.pycolore.fr/archive.html</loc>
-  <lastmod>2018-05-23T07:58:00Z</lastmod>
+  <loc>https://www.pycolore.fr/archive.html</loc>
+  <lastmod>2018-08-05T15:55:00Z</lastmod>
  </url>
  <url>
-  <loc>http://www.pycolore.fr/blog/</loc>
-  <lastmod>2018-05-23T07:58:00Z</lastmod>
+  <loc>https://www.pycolore.fr/blog/</loc>
+  <lastmod>2018-06-01T06:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://www.pycolore.fr/categories/</loc>
-  <lastmod>2018-05-23T07:58:00Z</lastmod>
+  <loc>https://www.pycolore.fr/categories/</loc>
+  <lastmod>2018-08-04T14:34:00Z</lastmod>
  </url>
  <url>
-  <loc>http://www.pycolore.fr/categories/cat_documents/</loc>
-  <lastmod>2018-05-23T07:58:00Z</lastmod>
+  <loc>https://www.pycolore.fr/categories/bash/</loc>
+  <lastmod>2018-08-04T14:32:00Z</lastmod>
  </url>
  <url>
-  <loc>http://www.pycolore.fr/categories/cat_projets/</loc>
-  <lastmod>2018-05-23T07:58:00Z</lastmod>
+  <loc>https://www.pycolore.fr/categories/cat_documents/</loc>
+  <lastmod>2018-06-01T06:15:00Z</lastmod>
  </url>
  <url>
-  <loc>http://www.pycolore.fr/categories/html/</loc>
-  <lastmod>2018-05-23T07:58:00Z</lastmod>
+  <loc>https://www.pycolore.fr/categories/cat_linux/</loc>
+  <lastmod>2018-07-18T17:31:00Z</lastmod>
  </url>
  <url>
-  <loc>http://www.pycolore.fr/categories/katex/</loc>
-  <lastmod>2018-05-23T07:58:00Z</lastmod>
+  <loc>https://www.pycolore.fr/categories/cat_memo/</loc>
+  <lastmod>2018-07-18T18:22:00Z</lastmod>
  </url>
  <url>
-  <loc>http://www.pycolore.fr/categories/latex/</loc>
-  <lastmod>2018-05-23T07:58:00Z</lastmod>
+  <loc>https://www.pycolore.fr/categories/cat_projets/</loc>
+  <lastmod>2018-06-01T06:15:00Z</lastmod>
  </url>
  <url>
-  <loc>http://www.pycolore.fr/categories/mathjax/</loc>
-  <lastmod>2018-05-23T07:58:00Z</lastmod>
+  <loc>https://www.pycolore.fr/categories/cmder/</loc>
+  <lastmod>2018-08-04T14:32:00Z</lastmod>
  </url>
  <url>
-  <loc>http://www.pycolore.fr/categories/maths/</loc>
-  <lastmod>2018-05-23T07:58:00Z</lastmod>
+  <loc>https://www.pycolore.fr/categories/debian/</loc>
+  <lastmod>2018-07-18T18:22:00Z</lastmod>
  </url>
  <url>
-  <loc>http://www.pycolore.fr/categories/python/</loc>
-  <lastmod>2018-05-23T07:58:00Z</lastmod>
+  <loc>https://www.pycolore.fr/categories/gnu/</loc>
+  <lastmod>2018-08-04T14:32:00Z</lastmod>
  </url>
  <url>
-  <loc>http://www.pycolore.fr/fichiers/</loc>
-  <lastmod>2018-05-23T07:58:00Z</lastmod>
+  <loc>https://www.pycolore.fr/categories/gnulinux/</loc>
+  <lastmod>2018-08-04T14:34:00Z</lastmod>
  </url>
  <url>
-  <loc>http://www.pycolore.fr/galleries/</loc>
-  <lastmod>2018-05-23T07:58:00Z</lastmod>
+  <loc>https://www.pycolore.fr/categories/gpg/</loc>
+  <lastmod>2018-08-04T14:32:00Z</lastmod>
  </url>
  <url>
-  <loc>http://www.pycolore.fr/listings/</loc>
-  <lastmod>2018-05-23T07:58:00Z</lastmod>
+  <loc>https://www.pycolore.fr/categories/html/</loc>
+  <lastmod>2018-06-01T06:15:00Z</lastmod>
  </url>
  <url>
-  <loc>http://www.pycolore.fr/posts/lancement/</loc>
-  <lastmod>2018-05-23T07:58:00Z</lastmod>
+  <loc>https://www.pycolore.fr/categories/katex/</loc>
+  <lastmod>2018-06-01T06:15:00Z</lastmod>
  </url>
  <url>
-  <loc>http://www.pycolore.fr/posts/projet-python-convertisseur-latex-vers-html-et-css/</loc>
-  <lastmod>2018-05-23T07:58:00Z</lastmod>
+  <loc>https://www.pycolore.fr/categories/latex/</loc>
+  <lastmod>2018-06-01T06:15:00Z</lastmod>
  </url>
  <url>
-  <loc>http://www.pycolore.fr/recettes/</loc>
-  <lastmod>2018-05-23T07:58:00Z</lastmod>
+  <loc>https://www.pycolore.fr/categories/linux/</loc>
+  <lastmod>2018-07-18T18:22:00Z</lastmod>
  </url>
  <url>
-  <loc>http://www.pycolore.fr/recettes/lasagnes-a-la-bolognaise/</loc>
-  <lastmod>2018-05-23T07:58:00Z</lastmod>
+  <loc>https://www.pycolore.fr/categories/make/</loc>
+  <lastmod>2018-08-04T14:32:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://www.pycolore.fr/categories/mathjax/</loc>
+  <lastmod>2018-06-01T06:15:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://www.pycolore.fr/categories/maths/</loc>
+  <lastmod>2018-06-01T06:15:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://www.pycolore.fr/categories/python/</loc>
+  <lastmod>2018-06-01T06:15:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://www.pycolore.fr/categories/serveur/</loc>
+  <lastmod>2018-07-18T18:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://www.pycolore.fr/categories/ssh/</loc>
+  <lastmod>2018-07-18T18:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://www.pycolore.fr/categories/unix/</loc>
+  <lastmod>2018-08-04T14:32:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://www.pycolore.fr/categories/wamp/</loc>
+  <lastmod>2018-07-19T09:25:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://www.pycolore.fr/categories/windows/</loc>
+  <lastmod>2018-07-19T09:25:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://www.pycolore.fr/fichiers/</loc>
+  <lastmod>2018-06-01T06:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://www.pycolore.fr/galleries/</loc>
+  <lastmod>2018-06-01T06:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://www.pycolore.fr/listings/</loc>
+  <lastmod>2018-06-01T06:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://www.pycolore.fr/posts/changer-le-message-de-connexion-ssh/</loc>
+  <lastmod>2018-07-18T16:34:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://www.pycolore.fr/posts/installer-un-serveur-web-sur-windows-sans-wamp/</loc>
+  <lastmod>2018-07-18T09:52:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://www.pycolore.fr/posts/lancement/</loc>
+  <lastmod>2018-06-01T06:15:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://www.pycolore.fr/posts/projet-python-convertisseur-latex-vers-html-et-css/</loc>
+  <lastmod>2018-06-01T06:16:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://www.pycolore.fr/posts/utiliser-bash-sous-windows/</loc>
+  <lastmod>2018-08-04T13:24:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://www.pycolore.fr/recettes/</loc>
+  <lastmod>2018-06-01T06:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://www.pycolore.fr/recettes/lasagnes-a-la-bolognaise/</loc>
+  <lastmod>2018-06-01T06:16:00Z</lastmod>
  </url>
 </urlset>

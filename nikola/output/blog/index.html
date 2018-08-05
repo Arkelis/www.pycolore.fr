@@ -9,7 +9,7 @@
 <meta name="theme-color" content="#5670d4">
 <meta name="generator" content="Nikola (getnikola.com)">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
-<link rel="canonical" href="http://www.pycolore.fr/blog/">
+<link rel="canonical" href="https://www.pycolore.fr/blog/">
 <link rel="icon" href="../favicon.ico" sizes="16x16">
 <!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]--><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
 </head>
@@ -27,7 +27,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="http://www.pycolore.fr/">
+            <a class="navbar-brand" href="https://www.pycolore.fr/">
 
                 <span id="blog-title">PyColore</span>
             </a>
@@ -70,7 +70,87 @@
 
     
 <div class="postindex">
-    <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="../posts/projet-python-convertisseur-latex-vers-html-et-css/" class="u-url">Projet Python : Convertisseur Latex vers HTML (et CSS)</a></h1>
+    <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="../posts/utiliser-bash-sous-windows/" class="u-url">Utiliser Bash sous Windows</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                Guillaume Fayard
+            </span></p>
+            <p class="dateline"><a href="../posts/utiliser-bash-sous-windows/" rel="bookmark"><time class="published dt-published" datetime="2018-08-04T15:20:46+02:00" title="2018-08-04 15:20">2018-08-04 15:20</time></a></p>
+                <p class="commentline">
+        
+    <a href="../posts/utiliser-bash-sous-windows/#disqus_thread" data-disqus-identifier="cache/posts/utiliser-bash-sous-windows.html">Comments</a>
+
+
+        </p>
+</div>
+    </header><div class="p-summary entry-summary">
+    <div>
+<p>Pour le développement, les meilleurs outils sont les outils GNU, en général pas disponibles pour Windows ! Heureusement il existe de nombreux portages. </p>
+<p class="more"><a href="../posts/utiliser-bash-sous-windows/">Lire la suite…</a></p>
+</div>
+    </div>
+    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="../posts/changer-le-message-de-connexion-ssh/" class="u-url">Changer le message de connexion SSH (Debian)</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                Guillaume Fayard
+            </span></p>
+            <p class="dateline"><a href="../posts/changer-le-message-de-connexion-ssh/" rel="bookmark"><time class="published dt-published" datetime="2018-07-18T14:56:26+02:00" title="2018-07-18 14:56">2018-07-18 14:56</time></a></p>
+                <p class="commentline">
+        
+    <a href="../posts/changer-le-message-de-connexion-ssh/#disqus_thread" data-disqus-identifier="cache/posts/changer-le-message-de-connexion-ssh.html">Comments</a>
+
+
+        </p>
+</div>
+    </header><div class="p-summary entry-summary">
+    <div>
+<p>On peut facilement changer le message d'accueil que l'on voit lorsque l'on se connecte en SSH au serveur. Les opérations décrites ci-après ont été effectuées sur un serveur Debian 9 (Stretch). Debian utilise des fichiers à deux emplacements :</p>
+<ul>
+<li>pour un affichage dynamique à <code>/etc/update-motd.d/</code>: les fichiers de ce dossier sont appelés dans l'ordre alphabétique. Ce sont des scripts bash ;</li>
+<li>pour un affichage statique dans le fichier <code>/etc/motd</code>, un simple fichier texte.</li>
+</ul>
+<p class="more"><a href="../posts/changer-le-message-de-connexion-ssh/">Lire la suite…</a></p>
+</div>
+    </div>
+    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="../posts/installer-un-serveur-web-sur-windows-sans-wamp/" class="u-url">Installer un serveur web sur Windows à la main (sans Wampserver)</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                Guillaume Fayard
+            </span></p>
+            <p class="dateline"><a href="../posts/installer-un-serveur-web-sur-windows-sans-wamp/" rel="bookmark"><time class="published dt-published" datetime="2018-07-18T11:05:51+02:00" title="2018-07-18 11:05">2018-07-18 11:05</time></a></p>
+                <p class="commentline">
+        
+    <a href="../posts/installer-un-serveur-web-sur-windows-sans-wamp/#disqus_thread" data-disqus-identifier="cache/posts/installer-un-serveur-web-sur-windows-sans-wamp.html">Comments</a>
+
+
+        </p>
+</div>
+    </header><div class="p-summary entry-summary">
+    <div>
+<h2>Introduction</h2>
+<p>La façon la plus simple d'installer un serveur web complet sur Windows est d'avoir recours à WAMP. L'avantage c'est que c'est très facile à utiliser : on ne configure rien à la main ou presque, tout fonctionne tout de suite. Problème :</p>
+<ul>
+<li>Il faut tout compiler soit même donc il faut au préalable installer je ne sais combien de paquets C++ Redistribuable.</li>
+<li>C'est lourd ! WAMP vient avec pas mal d'outils, c'est pratique pour du développement mais on a pas forcément besoin de tout !</li>
+<li>Rien configurer n'est pas formateur.</li>
+</ul>
+<p>Une alternative à WampServer qui a l'air un peu mieu fait est Laragon (voir <a href="https://www.grafikart.fr/tutoriels/php/laragon-1010">la vidéo de Grafikart</a>). Maintenant que PHP offre la possibilité de faire tourner un serveur de développemment intégré, l'installation d'Apache pour du développement peut devenir superflue. Pour un serveur en production, il est préférable d'utiliser des distributions GNU/Linux dédiées. Comme je ne voulais pas installer tout WAMP, j'ai tout installé à la main. C'est ce qu'on va faire dans cet article ! Ce que l'on va installer :</p>
+<ul>
+<li>
+<a href="https://chocolatey.org">Chocolatey</a> : un gestionnaire de paquets sur Windows, histoire de se familiariser avec un concept assez linuxien</li>
+<li>
+<a href="http://php.net/">PHP</a> : langage interprété par les serveurs</li>
+<li>
+<a href="https://mariadb.org/">MySQL (MariaDB)</a> : un serveur de bases de données</li>
+<li>
+<a href="http://httpd.apache.org/">Apache</a> : quand même assez utile pour ne pas toujours avoir à lancer le serveur intégré de PHP, et permet de faire des tests grandeur nature.</li>
+<li>
+<a href="https://www.phpmyadmin.net/">phpMyAdmin</a> : Interface web pour gérer les bases de données.</li>
+</ul>
+<p class="more"><a href="../posts/installer-un-serveur-web-sur-windows-sans-wamp/">Lire la suite…</a></p>
+</div>
+    </div>
+    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="../posts/projet-python-convertisseur-latex-vers-html-et-css/" class="u-url">Projet Python : Convertisseur Latex vers HTML (et CSS)</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 Guillaume Fayard
@@ -134,7 +214,7 @@ delimiters: [
         <!--End of body content-->
 
         <footer id="footer">
-            © 2018 <a href="mailto:guillaume2.fayard@wanadoo.fr">Guillaume Fayard</a>
+            © 2018 <a href="mailto:guillaume.fayard@pycolore.fr">Guillaume Fayard.</a>
             
         </footer>
 </div>
@@ -144,6 +224,12 @@ delimiters: [
             <script src="../assets/js/all-nocdn.js"></script><script src="../assets/js/colorbox-i18n/jquery.colorbox-fr.js"></script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
     moment.locale("fr");
     fancydates(0, "YYYY-MM-DD HH:mm");
-    </script><!-- end fancy dates -->
+    </script><!-- end fancy dates --><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=UA-120163913-1"></script><script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-120163913-1');
+</script>
 </body>
 </html>

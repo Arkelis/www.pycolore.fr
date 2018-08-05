@@ -6,47 +6,107 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>http://www.pycolore.fr/categories/cat_documents.xml</loc>
-  <lastmod>2018-05-23T07:58:00Z</lastmod>
+  <loc>https://www.pycolore.fr/categories/bash.xml</loc>
+  <lastmod>2018-08-04T14:34:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://www.pycolore.fr/categories/cat_projets.xml</loc>
-  <lastmod>2018-05-23T07:58:00Z</lastmod>
+  <loc>https://www.pycolore.fr/categories/cat_documents.xml</loc>
+  <lastmod>2018-07-18T11:23:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://www.pycolore.fr/categories/html.xml</loc>
-  <lastmod>2018-05-23T07:58:00Z</lastmod>
+  <loc>https://www.pycolore.fr/categories/cat_linux.xml</loc>
+  <lastmod>2018-07-18T18:22:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://www.pycolore.fr/categories/katex.xml</loc>
-  <lastmod>2018-05-23T07:58:00Z</lastmod>
+  <loc>https://www.pycolore.fr/categories/cat_memo.xml</loc>
+  <lastmod>2018-08-04T15:13:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://www.pycolore.fr/categories/latex.xml</loc>
-  <lastmod>2018-05-23T07:58:00Z</lastmod>
+  <loc>https://www.pycolore.fr/categories/cat_projets.xml</loc>
+  <lastmod>2018-07-18T11:23:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://www.pycolore.fr/categories/mathjax.xml</loc>
-  <lastmod>2018-05-23T07:58:00Z</lastmod>
+  <loc>https://www.pycolore.fr/categories/cmder.xml</loc>
+  <lastmod>2018-08-04T15:13:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://www.pycolore.fr/categories/maths.xml</loc>
-  <lastmod>2018-05-23T07:58:00Z</lastmod>
+  <loc>https://www.pycolore.fr/categories/debian.xml</loc>
+  <lastmod>2018-08-04T14:34:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://www.pycolore.fr/categories/python.xml</loc>
-  <lastmod>2018-05-23T07:58:00Z</lastmod>
+  <loc>https://www.pycolore.fr/categories/gnu.xml</loc>
+  <lastmod>2018-08-04T14:34:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://www.pycolore.fr/galleries/rss.xml</loc>
-  <lastmod>2018-05-23T07:58:00Z</lastmod>
+  <loc>https://www.pycolore.fr/categories/gnulinux.xml</loc>
+  <lastmod>2018-08-04T15:13:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://www.pycolore.fr/rss.xml</loc>
-  <lastmod>2018-05-23T07:58:00Z</lastmod>
+  <loc>https://www.pycolore.fr/categories/gpg.xml</loc>
+  <lastmod>2018-08-04T14:34:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://www.pycolore.fr/sitemap.xml</loc>
-  <lastmod>2018-05-23T07:58:00Z</lastmod>
+  <loc>https://www.pycolore.fr/categories/html.xml</loc>
+  <lastmod>2018-07-18T11:23:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://www.pycolore.fr/categories/katex.xml</loc>
+  <lastmod>2018-07-18T11:23:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://www.pycolore.fr/categories/latex.xml</loc>
+  <lastmod>2018-07-18T11:23:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://www.pycolore.fr/categories/linux.xml</loc>
+  <lastmod>2018-08-04T14:34:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://www.pycolore.fr/categories/make.xml</loc>
+  <lastmod>2018-08-04T14:34:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://www.pycolore.fr/categories/mathjax.xml</loc>
+  <lastmod>2018-07-18T11:23:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://www.pycolore.fr/categories/maths.xml</loc>
+  <lastmod>2018-07-18T11:23:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://www.pycolore.fr/categories/python.xml</loc>
+  <lastmod>2018-07-18T11:23:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://www.pycolore.fr/categories/serveur.xml</loc>
+  <lastmod>2018-08-04T14:34:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://www.pycolore.fr/categories/ssh.xml</loc>
+  <lastmod>2018-08-04T14:34:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://www.pycolore.fr/categories/unix.xml</loc>
+  <lastmod>2018-08-04T14:34:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://www.pycolore.fr/categories/wamp.xml</loc>
+  <lastmod>2018-08-04T13:28:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://www.pycolore.fr/categories/windows.xml</loc>
+  <lastmod>2018-08-04T15:13:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://www.pycolore.fr/galleries/rss.xml</loc>
+  <lastmod>2018-08-05T15:55:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://www.pycolore.fr/rss.xml</loc>
+  <lastmod>2018-08-04T15:13:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://www.pycolore.fr/sitemap.xml</loc>
+  <lastmod>2018-08-05T15:55:00Z</lastmod>
  </sitemap>
 </sitemapindex>

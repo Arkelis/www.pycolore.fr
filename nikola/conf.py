@@ -21,10 +21,10 @@ BLOG_AUTHOR = "Guillaume Fayard"  # (translatable)
 BLOG_TITLE = "PyColore"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "http://www.pycolore.fr/"
+SITE_URL = "https://www.pycolore.fr/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
-# BASE_URL = "http://pycolore.pagesperso-orange.fr/"
+# BASE_URL = "https://www.pycolore.fr/"
 BLOG_EMAIL = "guillaume2.fayard@wanadoo.fr"
 BLOG_DESCRIPTION = "Documents sur les maths et Python"  # (translatable)
 
@@ -890,7 +890,7 @@ IMAGE_FOLDERS = {'images': 'images'}
 # paraiso-light, pastie, perldoc, rrt, tango, trac, vim, vs, xcode
 # This list MAY be incomplete since pygments adds styles every now and then.
 # Check with list(pygments.styles.get_all_styles()) in an interpreter.
-# CODE_COLOR_SCHEME = 'default'
+CODE_COLOR_SCHEME = 'solarizedlight'
 
 # FAVICONS contains (name, file, size) tuples.
 # Used to create favicon link like this:
@@ -944,7 +944,7 @@ LICENSE = ""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-CONTENT_FOOTER = '&copy; {date} <a href="mailto:guillaume2.fayard@wanadoo.fr">Guillaume Fayard</a>'
+CONTENT_FOOTER = '&copy; {date} <a href="mailto:guillaume.fayard@pycolore.fr">Guillaume Fayard.</a>'
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
@@ -1229,7 +1229,16 @@ SHOW_SOURCELINK = False
 # Google Analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
 # (translatable)
-# BODY_END = ""
+BODY_END = """<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120163913-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-120163913-1');
+</script>
+"""
 
 # The possibility to extract metadata from the filename by using a
 # regular expression.
