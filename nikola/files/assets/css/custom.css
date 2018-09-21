@@ -1,0 +1,50 @@
+/* ------------------------------------------------------------------------ *\
+                                F O N T E S                                  
+\* ------------------------------------------------------------------------ */
+
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+
+/* ------------------------------------------------------------------------ *\
+                                  T A G S                                 
+\* ------------------------------------------------------------------------ */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bree Serif', sans-serif;
+}
+
+a {
+    color: #337ab7;
+}
+
+a:hover {
+    color: #337ab7;
+}
+
+figure {
+    padding: 20px;
+}
+
+img {
+    box-shadow: 3px 3px 10px #000000;
+}
+
+figcaption {
+    font-style: italic;
+    padding-top: 10px;
+}
+
+/* ------------------------------------------------------------------------ *\
+                                 C L A S S E S                                
+\* ------------------------------------------------------------------------ */
+
+.navbar {
+    /* position: sticky;
+    top: 0; */
+    min-height: 60px;
+    background-color: #3E3F3A !important;
+}
+
+.card {
+    box-shadow: 0px 1px 1px #aaaaaa;
+    border-color: #cccccc;
+}

@@ -1,0 +1,4 @@
+output/
+.doit*
+cache/
+__pycache__/
