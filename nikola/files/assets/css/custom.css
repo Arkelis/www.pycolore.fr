@@ -38,10 +38,11 @@ figcaption {
 \* ------------------------------------------------------------------------ */
 
 .navbar {
-    /* position: sticky;
-    top: 0; */
+    position: sticky;
+    top: 0;
     min-height: 60px;
     background-color: #3E3F3A !important;
+    z-index: 1;
 }
 
 .card {
