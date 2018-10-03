@@ -2,18 +2,18 @@
 .. title: Activer les dépôts essentiels sur Fedora : RPM Fusion et UnitedRPMS
 .. slug: activer-les-depots-essentiels-sur-fedora-rpm-fusion-et-unitedrpm
 .. date: 2018-09-25 00:32:16 UTC+02:00
-.. tags: 
-.. category: 
+.. tags: GNU/Linux, Fedora
+.. category: Mémo
 .. link: 
 .. description: 
 .. type: text
 -->
 
-Lorsqu'on installe Fedora, les dépôts officiels activés par défaut ne contiennent que des logiciels libres. Pour une meilleure expérience utilisateur, il est cependant recommandé d'activer des dépôts contenant des logiciels tiers voire propriétaires. Deux dépôts connus sont [RPM Fusion](https://rpmfusion.org) et [UnitedRPMS](https://unitedrpms.github.io), que l'on va installer ici.
+Lorsqu'on installe Fedora, les dépôts officiels activés par défaut ne contiennent que des logiciels libres. Pour une meilleure expérience utilisateur, il est cependant recommandé d'activer des dépôts contenant des logiciels tiers voire propriétaires. Deux dépôts connus sont [RPM Fusion](https://rpmfusion.org) et [UnitedRPMS](https://unitedrpms.github.io), que l'on va installer ici. <!-- TEASER_END -->
 
 # Installation de RPM Fusion et de Fedy
 
-RPM Fusion est un dépôt très connu qui contient de très nombreux programmes et librairies supplémentaires qui ne peuvent pas être présents dans les dépôts du projet Fedora (en général à cause de licences non libres). Il est indispensable de l'activer pour une meilleure expérience (notamment avec les codecs vidéo pour les navigateurs). Il existe deux sections&nbsp;: **free** (libres) et **non-free** (propriétaires).
+[RPM Fusion](https://rpmfusion.org) est un dépôt très connu qui contient de très nombreux programmes et librairies supplémentaires qui ne peuvent pas être présents dans les dépôts du projet Fedora (en général à cause de licences non libres). Il est indispensable de l'activer pour une meilleure expérience (notamment avec les codecs vidéo pour les navigateurs). Il existe deux sections&nbsp;: **free** (libres) et **non-free** (propriétaires).
 
 Pour activer les deux sections, entrer cette commande dans le terminal&nbsp;:
 
@@ -29,13 +29,13 @@ $ sudo dnf install https://dl.folkswithhats.org/fedora/$(rpm -E %fedora)/RPMS/fe
 $ sudo dnf intall fedy
 ```
 <figure class="text-center">
-    <img src="/assets/img/ssh.jpg" alt="Interface de Fedy" width="65%" />
-    <figcaption>Fedy</figcaption>
+    <img src="/assets/img/fedy.png" alt="Interface de Fedy" width="65%" />
+    <figcaption>L'interface de Fedy (dans KDE Plasma)</figcaption>
 </figure>
 
 # Installation de UnitedRPMS
 
-Certaines applications ne se trouvent pas sur RPM Fusion (par exemple le navigateur Opéra). Il existe un autre dépôt, UnitedRPMS, contenant d'autres programmes. On peut activer ce dépôt en complément de RPM Fusion.
+Certaines applications ne se trouvent pas sur RPM Fusion. Il existe un autre dépôt, [UnitedRPMS](https://unitedrpms.github.io), contenant d'autres programmes&nbsp;; on peut l'activer en complément de RPM Fusion.
 
 Pour installer UnitedRPMS&nbsp;:
 

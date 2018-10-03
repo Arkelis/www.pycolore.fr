@@ -1,8 +1,8 @@
 <!--
-.. title: Installer Linux (Mint) à côté de Windows (dual boot)
+.. title: Installer Linux Mint à côté de Windows en dual boot
 .. slug: installer-linux-a-cote-de-windows-dual-boot
 .. date: 2018-09-20 11:36:00 UTC+02:00
-.. tags: GNU/Linux
+.. tags: GNU/Linux, Mint
 .. category: Mémo
 .. link: 
 .. description: 
@@ -13,7 +13,7 @@ Ce guide vous permettra d'installer pas à pas Linux sur votre ordinateur. Si vo
 
 Le terme [Linux](https://www.kernel.org/linux.html) désigne en fait [un noyau de système d'exploitation](https://fr.wikipedia.org/wiki/Noyau_de_système_d%27exploitation). L'équivalent de Windows serait plutôt le terme "distribution GNU/Linux", il y en [des tas](distrowatch.com)&nbsp;! On parle de GNU/Linux car ces systèmes d'exploitation utilisent le noyau Linux et des outils [GNU](https://www.gnu.org/home.fr.html). <!-- TEASER_END -->
 
-Ce guide se focalisera sur l'installation de [Linux Mint 19](https://linuxmint.com), une distribution parfaite pour débuter sur le monde de Linux&nbsp;!
+Ce guide se focalisera sur l'installation de **[Linux Mint 19 Tara](https://linuxmint.com)**, une distribution parfaite pour débuter sur le monde de Linux&nbsp;!
 
 # Grandes étapes
 1. [Préliminaire](#preliminaire)
