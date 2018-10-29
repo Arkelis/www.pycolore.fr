@@ -26,7 +26,7 @@ Un petit outil graphique permet d'installer des applications de RPM Fusion facil
 
 ```bash
 $ sudo dnf install https://dl.folkswithhats.org/fedora/$(rpm -E %fedora)/RPMS/fedy-release.rpm
-$ sudo dnf intall fedy
+$ sudo dnf install fedy
 ```
 <figure class="text-center">
     <img src="/assets/img/fedy.png" alt="Interface de Fedy" width="65%" />

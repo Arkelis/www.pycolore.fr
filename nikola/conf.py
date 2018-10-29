@@ -152,6 +152,7 @@ NAVIGATION_LINKS = {
         ),
         ("/fichiers/", "Téléchargements"),
         ("https://www.origenial.fr", "Accéder à Origenial.fr"),
+        ("https://github.com/Arkelis", "<i class='fab fa-github'></i> Github"),
     ),
 }
 
@@ -958,7 +959,7 @@ LICENSE = ""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-CONTENT_FOOTER = '&copy; {date} <a href="mailto:guillaume.fayard@pycolore.fr">Guillaume Fayard.</a>'
+CONTENT_FOOTER = '&copy; {date} Guillaume Fayard. Contact&nbsp;: guillaume.fayard [at] pycolore.fr'
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
@@ -1239,7 +1240,9 @@ SHOW_SOURCELINK = False
 # Extra things you want in the pages HEAD tag. This will be added right
 # before </head>
 # (translatable)
-EXTRA_HEAD_DATA = '<link href="/assets/css/custom.css" rel="stylesheet" type="text/css">'
+EXTRA_HEAD_DATA = """
+<link href="/assets/css/custom.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">"""
 # Google Analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
 # (translatable)

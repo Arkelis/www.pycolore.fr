@@ -15,9 +15,9 @@ deploy:
 	@echo -e "$(COM_COLOR)Reconstruction du site avec Nikola...$(NO_COLOR)"
 	@echo "nikola build"; nikola build || (echo -e "\n$(ERROR_COLOR)Erreur : Nikola n'est pas installé dans l'environnement virtuel utilisé.\n$(ABORT_MSG)$(NO_COLOR)"; exit 1)
 	@echo -e "$(COM_COLOR)Mise à jour du Mémo Python en PDF...$(NO_COLOR)"
-	cp ../../../Programmation/Python/Memo/latex/python.pdf output/python.pdf
+	cp ../../../Programmation/Python/memo/latex/python.pdf output/python.pdf
 	@echo -e "$(COM_COLOR)Mise à jour du Mémo Python en RST...$(NO_COLOR)"
-	rsync -a --delete ../../../Programmation/Python/Memo/rst/_build/html/. output/python/
+	rsync -a --delete ../../../Programmation/Python/memo/rst/_build/html/. output/python/
 	@echo -e "$(COM_COLOR)Mise à jour du Mémo OCaml en RST...$(NO_COLOR)"
 	rsync -a --delete ../../../Programmation/OCaml/Memo/build/html/. output/ocaml/
 	@echo -e "$(WARN_COLOR)"
