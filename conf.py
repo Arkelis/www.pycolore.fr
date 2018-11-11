@@ -147,6 +147,7 @@ NAVIGATION_LINKS = {
             (
                 ("/python", "Python"),
                 ("/ocaml", "OCaml"),
+                ("/debian", "Debian"),
             ), 
             "Grands mémos"
         ),
