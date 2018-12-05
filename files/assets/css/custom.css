@@ -12,6 +12,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Bree Serif', sans-serif;
 }
 
+h1 {
+    margin-top: 3rem;
+}
+
 a {
     color: #337ab7;
 }
@@ -62,6 +66,11 @@ figcaption {
     align-items: stretch;
 }
 
+.title-hr {
+    margin-bottom: 1.5rem;
+    margin-top: 0;
+}
+
 .section-subtitle {
     font-family: 'Bree Serif', sans-serif;
 }
@@ -74,8 +83,14 @@ figcaption {
     width: 60%
 }
 
+.entry-title {
+    margin-top: inherit;
+    margin-bottom: inherit;
+}
+
 @media only screen and (max-width: 576px) {   
-.section-title-hr {
-    width: 90%
+    .section-title-hr {
+        width: 90%
+    }
 }
-}
+

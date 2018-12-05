@@ -573,7 +573,10 @@ INDEX_PATH = "blog"
 # Optional HTML that displayed on “main” blog index.html files.
 # May be used for a greeting. (translatable)
 FRONT_INDEX_HEADER = {
-    DEFAULT_LANG: '<h1 class="display-4">Le Blog de PyColore <small class="text-muted">Articles, Mémos et Documents</small></h1>'
+    DEFAULT_LANG: """
+    <h1 class="display-4">Le Blog de PyColore <small class="text-muted">Articles, Mémos et Documents</small></h1>
+    <hr class="title-hr">
+    """
 }
 
 # Create per-month archives instead of per-year
