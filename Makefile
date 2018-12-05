@@ -17,7 +17,7 @@ deploy:
 	@echo -e "$(COM_COLOR)Mise à jour du Mémo Python en PDF...$(NO_COLOR)"
 	cp ../../../programmation/Python/memo/latex/python.pdf output/python.pdf
 	@echo -e "$(COM_COLOR)Mise à jour du Mémo Python en RST...$(NO_COLOR)"
-	rsync -a --delete ../../../programmation/Python/memo/rst/_build/html/. output/python/
+	rsync -a --delete ../../../programmation/python/memo/rst/_build/html/. output/python/
 	@echo -e "$(COM_COLOR)Mise à jour du Mémo OCaml en RST...$(NO_COLOR)"
 	rsync -a --delete ../../../programmation/OCaml/Memo/build/html/. output/ocaml/
 	@echo -e "$(COM_COLOR)Mise à jour du Mémo Debian en RST...$(NO_COLOR)"

@@ -48,4 +48,34 @@ figcaption {
 .card {
     box-shadow: 0px 1px 1px #aaaaaa;
     border-color: #cccccc;
+    height: calc(100% - 1rem);
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.row {
+    align-items: stretch;
+}
+
+.section-subtitle {
+    font-family: 'Bree Serif', sans-serif;
+}
+
+.section-title {
+    margin-top: 50px;
+}
+
+.section-title-hr {
+    width: 60%
+}
+
+@media only screen and (max-width: 576px) {   
+.section-title-hr {
+    width: 90%
+}
 }
