@@ -6,13 +6,14 @@
 .. link:
 .. description:
 
-# Fichiers disponibles au téléchargement
+<h1 class="page-title">Fichiers disponibles en téléchargement</h1>
+<hr class="title-hr">
 
-## Mathématiques
+# Mathématiques
 
 1. [Cours de mathématiques de PSI (2017)](/math.pdf).
 2. [Cours de mathématiques du tronc commun de l'Ecole Centrale de Lille : "Analyse pour l'ingénieur"](/math-ing.pdf).
 
-## Python
+# Python
 
 1. [Mémo Python](/python.pdf).

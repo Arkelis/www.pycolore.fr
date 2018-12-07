@@ -71,6 +71,10 @@ figcaption {
     margin-top: 0;
 }
 
+.page-title {
+    font-size: 2.1875rem;
+}
+
 .section-subtitle {
     font-family: 'Bree Serif', sans-serif;
 }
