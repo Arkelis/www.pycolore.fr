@@ -17,6 +17,10 @@ J'ai créé un petit dépôt pour des programmes qui ne sont ni dans le dépôt 
 ni dans le dépôt RPM Fusion, ou bien parce qu'il ne propose pas de dépôt individuel DNF. Pour
 l'instant, seul GitKraken fait partie de ce dépôt.
 
+**Versions de Fedora supportées** :
+
+* Fedora 29 (Twenty Nine)
+
 # Installation
 
 Le dépôt ne marche que sur les distributions utilisant DNF comme gestionnaire de dépendances (Fedora).

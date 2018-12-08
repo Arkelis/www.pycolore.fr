@@ -12,14 +12,14 @@
 
 [GitKraken](https://www.gitkraken.com/git-client) est un client graphique pour Git. Il est plutôt bien fait
 mais malheureusement il n'existe pas de RPM GitKraken dans les dépôt RPM Fusion (encore moins sur les dépôts 
-officiels car c'est un logiciel propriétaire). La procédure d'installation est du coup assez
+officiels de Fedora car c'est un logiciel propriétaire). La procédure d'installation est du coup assez
 [fastidieuse](https://gist.github.com/aelkz/17528d2f6a5db73185c7dfbd28e49d18), je me suis donc créé un petit
 dépôt où j'ai empaqueté GitKraken !<!-- TEASER_END -->
 
 # Activation du dépôt
 
-La procédure est indiquée sur [la page de présentation du dépôt DNF](https://www.pycolore.fr/depot-dnf).
-Pour l'instant il ne contient que GitKraken.
+La procédure est indiquée sur [la page de présentation du dépôt DNF](https://www.pycolore.fr/depot-dnf). Le dépôt
+fonctionne pour **Fedora 29** et pour l'instant, il ne contient que GitKraken.
 
 ```
 $ curl --silent --location http://repo.pycolore.fr/rpm/pycolore.repo | sudo tee /etc/yum.repos.d/pycolore.repo
