@@ -24,6 +24,7 @@ l'instant, seul GitKraken fait partie de ce dépôt.
 # Installation
 
 Le dépôt ne marche que sur les distributions utilisant DNF comme gestionnaire de dépendances (Fedora).
+Dans un terminal&nbsp;:
 
 ```
 $ curl --silent --location http://repo.pycolore.fr/rpm/pycolore.repo | sudo tee /etc/yum.repos.d/pycolore.repo
