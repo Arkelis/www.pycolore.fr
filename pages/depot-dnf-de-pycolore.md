@@ -32,9 +32,17 @@ $ curl --silent --location http://repo.pycolore.fr/rpm/pycolore.repo | sudo tee 
 
 Attention, les paquets ne sont pour l'instant pas signés.
 
-# Liste des programmes
+# Installation des programmes
 
-|**Logiciel (nom du paquet RPM)** | **Version** |
-|:------------------------------|:------------|
-|GitKraken (gitkraken)        | 4.1.1       |
+Vous pouvez maintenant installer les programmes de PyColore avec un simple :
 
+```
+$ sudo dnf install <nom-du-paquet-rpm>
+```
+
+La liste des programme est indiquée ci-dessous.
+
+
+| **Logiciel (nom du paquet RPM)** | **Version** |
+|:---------------------------------|:------------|
+| GitKraken (gitkraken)            | 4.1.1       |

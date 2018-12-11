@@ -84,7 +84,16 @@ $ wget -qO - http://repo.pycolore.fr/deb/KEY.gpg | sudo apt-key add -
 $ sudo apt update
 ```
 
-# Liste des programmes
+# Installation des programmes
+
+Vous pouvez maintenant installer les programmes de PyColore avec un simple :
+
+```
+$ sudo apt install <nom-du-paquet-deb>
+```
+
+La liste des programme est indiquée ci-dessous.
+
 
 | **Logiciel (nom du paquet DEB)** | **Version** |
 |:---------------------------------|:------------|
