@@ -14,8 +14,8 @@
 <hr class="title-hr">
 
 J'ai créé un petit dépôt pour des programmes qui ne sont ni dans le dépôt officiel de Fedora,
-ni dans le dépôt RPM Fusion, ou bien parce qu'il ne propose pas de dépôt individuel DNF. Pour
-l'instant, seul GitKraken fait partie de ce dépôt.
+ni dans le dépôt RPM Fusion, ou bien parce qu'il ne propose pas de dépôt individuel DNF. Le dépôt
+contient à ce jour deux logiciels (voir la liste en bas de page).
 
 **Versions de Fedora supportées** :
 

@@ -20,12 +20,12 @@ dans les dépôts officiels. Pour l'instant il n'y a que GitKraken dans ce dép�
 
 * Debian 9 (Stretch)
 * Ubuntu 18.04 LTS (Bionic Beaver)
-* Linux Mint 19 (Tarra)
+* Linux Mint 19 (Tarra) et 19.1 (Tessa)
 
 # Installation
 
 Le dépôt ne marche que sur les distributions utilisant APT comme gestionnaire de dépendances.
-Attention, seule les distributions indiquées précédemment sont supportées.
+Attention, seules les distributions indiquées précédemment sont supportées.
 
 L'installation se déroule en trois étapes&nbsp;:
 
@@ -33,7 +33,7 @@ L'installation se déroule en trois étapes&nbsp;:
 2. Importer la clé qui signe les dépôts de la nouvelle source ;
 3. Mettre à jour le cache d'APT.
 
-## Ubuntu 18.04 et Linux Mint 19
+## Ubuntu 18.04 et Linux Mint 19/19.1
 ### En ligne de commande
 
 Dans un terminal&nbsp;:
