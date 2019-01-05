@@ -95,7 +95,6 @@ $ sudo apt install <nom-du-paquet-deb>
 La liste des programme est indiquée ci-dessous.
 
 
-| **Logiciel (nom du paquet DEB)** | **Version** |
-|:---------------------------------|:------------|
-| GitKraken (gitkraken)            | 4.1.1       |
-
+| **Logiciel (nom du paquet RPM)** | **Version** | **Description**                  | **Développeur**                                                   |
+|:---------------------------------|:------------|:---------------------------------|:------------------------------------------------------------------|
+| GitKraken (gitkraken)            | 4.1.1       | Client graphique Git élaboré     | [Axosoft, LLC.](https://www.gitkraken.com/)                       |

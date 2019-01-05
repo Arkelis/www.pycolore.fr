@@ -43,6 +43,7 @@ $ sudo dnf install <nom-du-paquet-rpm>
 La liste des programme est indiquée ci-dessous.
 
 
-| **Logiciel (nom du paquet RPM)** | **Version** |
-|:---------------------------------|:------------|
-| GitKraken (gitkraken)            | 4.1.1       |
+| **Logiciel (nom du paquet RPM)** | **Version** | **Description**                  | **Développeur**                                                   |
+|:---------------------------------|:------------|:---------------------------------|:------------------------------------------------------------------|
+| GitKraken (gitkraken)            | 4.1.1       | Client graphique Git élaboré     | [Axosoft, LLC.](https://www.gitkraken.com/)                       |
+| Simple DNF (simple-dnf)          | alpha       | Client graphique DNF minimaliste | [Hyacinthe Pierre Friedrichs](http://3615.hyakosm.net/portfolio/) |
