@@ -2,3 +2,6 @@ output/
 .doit*
 cache/
 __pycache__/
+pages/recettes.md
+pages/recettes
+.venv
