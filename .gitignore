@@ -1,7 +1,8 @@
-output/
+output
 .doit*
 cache/
-__pycache__/
+__pycache__
 pages/recettes.md
 pages/recettes
 .venv
+.env
