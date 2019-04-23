@@ -13,24 +13,25 @@
 <h1 class="page-title">Dépôt DNF de PyColore</h1>
 <hr class="title-hr">
 
-J'ai créé un petit dépôt pour des programmes qui ne sont ni dans le dépôt officiel de Fedora,
-ni dans le dépôt RPM Fusion, ou bien parce qu'il ne propose pas de dépôt individuel DNF. Le dépôt
-contient à ce jour deux logiciels (voir la liste en bas de page).
+J'ai créé un petit dépôt grâce au service [Fedora COPR](https://copr.fedorainfracloud.org/)
+pour des programmes qui ne sont ni dans le dépôt officiel de Fedora, ni dans le dépôt RPM Fusion,
+ou bien parce qu'il ne propose pas de dépôt individuel DNF. Le dépôt contient à ce jour deux
+logiciels (voir la liste en bas de page).
 
 **Versions de Fedora supportées** :
 
+* Fedora 28 (Twenty Eight)
 * Fedora 29 (Twenty Nine)
+* Fedora 30 (Thirty)
 
 # Installation
 
-Le dépôt ne marche que sur les distributions utilisant DNF comme gestionnaire de dépendances (Fedora).
-Dans un terminal&nbsp;:
+Le dépôt ne marche que sur les distributions citées précédemment. L'installation du dépôt se
+fait facilement grâce à l'intégration dans DNF de COPR.
 
 ```
-$ curl --silent --location http://repo.pycolore.fr/rpm/pycolore.repo | sudo tee /etc/yum.repos.d/pycolore.repo
+$ sudo dnf copr enable arkelis/Pycolore
 ```
-
-Attention, les paquets ne sont pour l'instant pas signés.
 
 # Installation des programmes
 
@@ -45,5 +46,6 @@ La liste des programme est indiquée ci-dessous.
 
 | **Logiciel (nom du paquet RPM)** | **Version** | **Description**                  | **Développeur**                                                   |
 |:---------------------------------|:------------|:---------------------------------|:------------------------------------------------------------------|
-| GitKraken (gitkraken)            | 4.1.1       | Client graphique Git élaboré     | [Axosoft, LLC.](https://www.gitkraken.com/)                       |
-| Simple DNF (simple-dnf)          | alpha       | Client graphique DNF minimaliste | [Hyacinthe Pierre Friedrichs](http://3615.hyakosm.net/portfolio/) |
+| GitKraken (gitkraken) (temporairement indisponible)           | 4.1.1       | Client graphique Git élaboré     | [Axosoft, LLC.](https://www.gitkraken.com/)                       |
+| Simple DNF (simple-dnf) (temporairement indisponible)         | alpha       | Client graphique DNF minimaliste | [Hyacinthe Pierre Friedrichs](http://3615.hyakosm.net/portfolio/) |
+| Yaru (yaru) | r29 | Thème pour Gnome développé par la communauté Ubuntu (Community theme) | [Communauté Ubuntu](https://github.com/ubuntu/yaru) |
