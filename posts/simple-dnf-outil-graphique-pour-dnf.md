@@ -1,13 +1,13 @@
-<!--
-.. title: Simple DNF - Outil graphique pour DNF
-.. slug: simple-dnf-outil-graphique-pour-dnf
-.. date: 2019-01-05 14:58:43 UTC+01:00
-.. tags: 
-.. category: 
-.. link: 
-.. description: 
-.. type: text
--->
+---
+title: Simple DNF - Outil graphique pour DNF
+slug: simple-dnf-outil-graphique-pour-dnf
+date: 2019-01-05 14:58:43 UTC+01:00
+tags: 
+category: 
+link: 
+description: 
+type: text
+---
 
 [Simple DNF](http://3615.hyakosm.net/articles/2018/11/27/simple-dnf.html)
 est un petit outil graphique minimaliste très pratique pour faire des

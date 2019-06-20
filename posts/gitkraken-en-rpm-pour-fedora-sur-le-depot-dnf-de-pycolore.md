@@ -1,13 +1,13 @@
-<!--
-.. title: GitKraken en RPM pour Fedora sur le dépôt DNF de PyColore
-.. slug: gitkraken-en-rpm-pour-fedora-sur-le-depot-dnf-de-pycolore
-.. date: 2018-12-07 23:49:48 UTC+01:00
-.. tags: GNU/Linux, Fedora
-.. category: Ressource
-.. link: 
-.. description: 
-.. type: text
--->
+---
+title: GitKraken en RPM pour Fedora sur le dépôt DNF de PyColore
+slug: gitkraken-en-rpm-pour-fedora-sur-le-depot-dnf-de-pycolore
+date: 2018-12-07 23:49:48 UTC+01:00
+tags: GNU/Linux, Fedora
+category: Ressource
+link: 
+description: 
+type: text
+---
 
 
 [GitKraken](https://www.gitkraken.com/git-client) est un client graphique pour Git. Il est plutôt bien fait

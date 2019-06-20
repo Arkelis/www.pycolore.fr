@@ -1,14 +1,14 @@
-<!--
-.. title: Projet Python : Convertisseur Latex vers HTML (et CSS)
-.. slug: projet-python-convertisseur-latex-vers-html-et-css
-.. date: 2018-04-21 20:45:41 UTC+02:00
-.. tags: Python, LaTeX, HTML, KaTeX
-.. category: Projet
-.. link:
-.. description:
-.. type: text
-.. has_math: yes
--->
+---
+title: "Projet Python : Convertisseur Latex vers HTML (et CSS)"
+slug: projet-python-convertisseur-latex-vers-html-et-css
+date: 2018-04-21 20:45:41 UTC+02:00
+tags: Python, LaTeX, HTML, KaTeX
+category: Projet
+link:
+description:
+type: text
+has_math: yes
+---
 
 ## Objectif
 

@@ -1,13 +1,13 @@
-<!--
-.. title: Installer un serveur web sur Windows à la main (sans WampServer)
-.. slug: installer-un-serveur-web-sur-windows-sans-wamp
-.. date: 2018-07-18 11:05:51 UTC+02:00
-.. tags: Windows, Serveur, WAMP
-.. category: Mémo
-.. link: 
-.. description: Installation d'Apache, MySQL, PHP et phpMyAdmin sous Windows sans s'emcombrer avec WampServer. On utilisera le sympathique gestionnaire Chocolatey !
-.. type: text
--->
+---
+title: Installer un serveur web sur Windows à la main (sans WampServer)
+slug: installer-un-serveur-web-sur-windows-sans-wamp
+date: 2018-07-18 11:05:51 UTC+02:00
+tags: Windows, Serveur, WAMP
+category: Mémo
+link: 
+description: Installation d'Apache, MySQL, PHP et phpMyAdmin sous Windows sans s'emcombrer avec WampServer. On utilisera le sympathique gestionnaire Chocolatey !
+type: text
+---
 
 # Introduction
 

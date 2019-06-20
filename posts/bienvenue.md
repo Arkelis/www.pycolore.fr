@@ -1,15 +1,15 @@
-<!--
-.. title: Les premiers documents
-.. slug: lancement
-.. date: 2018-04-20 14:30:18 UTC+02:00
-.. tags: Python, Maths
-.. author: Guillaume Fayard
-.. category: Document
-.. link:
-.. description:
-.. type: text
-.. has_math: yes
--->
+---
+title: Les premiers documents
+slug: lancement
+date: 2018-04-20 14:30:18 UTC+02:00
+tags: Python, Maths
+author: Guillaume Fayard
+category: Document
+link:
+description:
+type: text
+has_math: yes
+---
 
 ## Bienvenue
 

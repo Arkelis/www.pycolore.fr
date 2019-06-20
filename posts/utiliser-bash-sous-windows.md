@@ -1,13 +1,13 @@
-<!--
-.. title: Utiliser Bash sous Windows
-.. slug: utiliser-bash-sous-windows
-.. date: 2018-08-04 15:20:46 UTC+02:00
-.. tags: Cmder, GNU/Linux, Windows
-.. category: Mémo
-.. link: https://www.pycolore.fr/posts/utiliser-bash-sous-windows
-.. description: Installer Bash, GNU Make, rsync et GnuPG sur Windows grâce à Cmder et MSYS2.
-.. type: text
--->
+---
+title: Utiliser Bash sous Windows
+slug: utiliser-bash-sous-windows
+date: 2018-08-04 15:20:46 UTC+02:00
+tags: Cmder, GNU/Linux, Windows
+category: Mémo
+link: https://www.pycolore.fr/posts/utiliser-bash-sous-windows
+description: Installer Bash, GNU Make, rsync et GnuPG sur Windows grâce à Cmder et MSYS2.
+type: text
+---
 
 Pour le développement, les meilleurs outils sont les outils GNU, en général pas disponibles pour Windows&nbsp;! Heureusement il existe de nombreux portages. <!-- TEASER_END -->
 

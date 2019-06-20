@@ -10,6 +10,8 @@
 .. type: text
 -->
 
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
 <h1 class="display-4">Bienvenue sur PyColore&nbsp;!</h1>
 <hr class="title-hr">
 <p>Ce site met à disposition deux cours de Maths (niveau Prépa <a href="math.pdf">PSI</a> et <a href="math-ing.pdf">première année d'ingé</a>)
@@ -118,3 +120,15 @@
 </div>
 
 <p>Ce site a été créé grâce au générateur de sites statiques <a class="reference external" href="https://getnikola.com">Nikola</a>.</p>
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>

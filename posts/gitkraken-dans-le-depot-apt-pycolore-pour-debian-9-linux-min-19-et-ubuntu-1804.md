@@ -1,13 +1,13 @@
-<!--
-.. title: GitKraken dans le dépôt APT PyColore pour Debian 9, Linux Min 19 et Ubuntu 18.04
-.. slug: gitkraken-dans-le-depot-apt-pycolore-pour-debian-9-linux-min-19-et-ubuntu-1804
-.. date: 2018-12-10 22:37:58 UTC+01:00
-.. tags: 
-.. category: 
-.. link: 
-.. description: 
-.. type: text
--->
+---
+title: GitKraken dans le dépôt APT PyColore pour Debian 9, Linux Min 19 et Ubuntu 18.04
+slug: gitkraken-dans-le-depot-apt-pycolore-pour-debian-9-linux-min-19-et-ubuntu-1804
+date: 2018-12-10 22:37:58 UTC+01:00
+tags: 
+category: 
+link: 
+description: 
+type: text
+---
 
 Après la création du [dépôt DNF](https://www.pycolore.fr/depot-dnf) et la mise en 
 ligne du [RPM de GitKraken](../gitkraken-en-rpm-pour-fedora-sur-le-depot-dnf-de-pycolore/), PyColore

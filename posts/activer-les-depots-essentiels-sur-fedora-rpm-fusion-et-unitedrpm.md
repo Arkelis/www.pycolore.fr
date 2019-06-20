@@ -1,13 +1,13 @@
-<!--
-.. title: Activer les dépôts essentiels sur Fedora : RPM Fusion et UnitedRPMS
-.. slug: activer-les-depots-essentiels-sur-fedora-rpm-fusion-et-unitedrpm
-.. date: 2018-09-25 00:32:16 UTC+02:00
-.. tags: GNU/Linux, Fedora
-.. category: Mémo
-.. link: 
-.. description: 
-.. type: text
--->
+---
+title: "Activer les dépôts essentiels sur Fedora : RPM Fusion et UnitedRPMS"
+slug: activer-les-depots-essentiels-sur-fedora-rpm-fusion-et-unitedrpm
+date: 2018-09-25 00:32:16 UTC+02:00
+tags: GNU/Linux, Fedora
+category: Mémo
+link: 
+description: 
+type: text
+---
 
 Lorsqu'on installe Fedora, les dépôts officiels activés par défaut ne contiennent que des logiciels libres. Pour une meilleure expérience utilisateur, il est cependant recommandé d'activer des dépôts contenant des logiciels tiers voire propriétaires. Deux dépôts connus sont [RPM Fusion](https://rpmfusion.org) et [UnitedRPMS](https://unitedrpms.github.io), que l'on va installer ici. <!-- TEASER_END -->
 

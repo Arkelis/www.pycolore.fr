@@ -1,13 +1,13 @@
-<!--
-.. title: Changer le message de connexion SSH (Debian)
-.. slug: changer-le-message-de-connexion-ssh
-.. date: 2018-07-18 14:56:26 UTC+02:00
-.. tags: GNU/Linux, SSH, Debian, Serveur
-.. category: Mémo
-.. link: 
-.. description: 
-.. type: text
--->
+---
+title: Changer le message de connexion SSH (Debian)
+slug: changer-le-message-de-connexion-ssh
+date: 2018-07-18 14:56:26 UTC+02:00
+tags: GNU/Linux, SSH, Debian, Serveur
+category: Mémo
+link: 
+description: 
+type: text
+---
 
 On peut facilement changer le message d'accueil que l'on voit lorsque l'on se connecte en SSH au serveur. Les opérations décrites ci-après ont été effectuées sur un serveur Debian 9 (Stretch). Debian utilise des fichiers à deux emplacements&nbsp;:
 
