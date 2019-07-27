@@ -82,6 +82,27 @@
             </div>
         </div>
     </div>
+    <p><span class="section-subtitle">Les post-it de Pycolore</span></p>
+    <div class="row">
+        <div class="col-md">
+            <div class="card mb-3">
+                <div class="card-header bg-light">Mini mémos</div>
+                <div class="card-body">
+                    <p class="card-text">Des mini mémos divers pas très rédigés. Ils peuvent concerner à peu près n'importe quoi, de Linux aux langags de programmation en passant par le Web.</p>
+                    <a href="https://post-it.pycolore.fr/post-it/notes" class="btn btn-primary">Notes</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md">
+            <div class="card mb-3">
+                <div class="card-header bg-light">Extraits de code</div>
+                <div class="card-body">
+                    <p class="card-text">Des bouts de code en tout genre réutilisables.</p>
+                    <a href="https://post-it.pycolore.fr/post-it/snippets" class="btn btn-primary">Snippets</a>
+                </div>
+            </div>
+        </div>
+    </div>
     <p><span class="section-subtitle">Les dépôts de Pycolore</span></p>
     <div class="row">
         <div class="col-md">
@@ -104,31 +125,6 @@
             </div>
         </div>
     </div>
-    <h2 class="section-title">Ressources externes</h2>
-    <hr class="section-title-hr">
-    <p><span class="section-subtitle">Les ressources externes au site PyColore</span></p>
-    <div class="card mb-3">
-        <div class="card-header bg-light">Le dépôt des mini mémos</div>
-        <div class="card-body">
-            <p class="card-text">Dépôt Git hébergé sur Github contenant des tas de mini notes et d'extraits de
-                code.
-                Ils sont plus succints que les mémos de la section Blog.
-            </p>
-            <a href="https://github.com/Arkelis/post-it" class="btn btn-primary">Post-it</a>
-        </div>
-    </div>
 </div>
 
 <p>Ce site a été créé grâce au générateur de sites statiques <a class="reference external" href="https://getnikola.com">Nikola</a>.</p>
-
-<script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-</script>

@@ -139,7 +139,7 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         (
             (
-                ("/blog/", "Articles et mini mémos"),
+                ("/blog/", "Articles"),
                 ("/categories", "Catégories"),
                 ("/archive.html", "Archives"),
                 ("/rss.xml", "Flux RSS"),
@@ -147,8 +147,13 @@ NAVIGATION_LINKS = {
             "Blog",
         ),
         (
-            (("/python", "Python"), ("/ocaml", "OCaml"), ("/debian", "Debian")),
-            "Grands mémos",
+            (
+                ("https://post-it.pycolore.fr", "Post-it"),
+                ("/python/", "Python"),
+                ("/ocaml/", "OCaml"),
+                ("/debian/", "Debian")
+            ),
+            "Mémos",
         ),
         (
             (("/depot-dnf", "Dépôt DNF"), ("/depot-apt", "Dépôt APT")),
@@ -232,11 +237,11 @@ TIMEZONE = "Europe/Paris"
 
 # Date format used to display post dates. (translatable)
 # (str used by datetime.datetime.strftime)
-# DATE_FORMAT = '%Y-%m-%d %H:%M'
+DATE_FORMAT = "EEEE d MMMM YYYY "
 
 # Date format used to display post dates, if local dates are used. (translatable)
 # (str used by moment.js)
-# JS_DATE_FORMAT = 'YYYY-MM-DD HH:mm'
+JS_DATE_FORMAT = 'DD/MM/YYYY HH:mm'
 
 # Date fanciness.
 #
