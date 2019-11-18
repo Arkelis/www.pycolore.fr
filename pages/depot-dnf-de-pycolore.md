@@ -48,4 +48,6 @@ La liste des programme est indiquée ci-dessous.
 |:---------------------------------|:------------|:---------------------------------|:------------------------------------------------------------------|
 | GitKraken (gitkraken)            | 5.0.4       | Client graphique Git élaboré     | [Axosoft, LLC.](https://www.gitkraken.com/)                       |
 | Simple DNF (simple-dnf) (temporairement indisponible)         | alpha       | Client graphique DNF minimaliste | [Hyacinthe Pierre Friedrichs](http://3615.hyakosm.net/portfolio/) |
-| Yaru (yaru)                      | r29           | Thème pour Gnome développé par la communauté Ubuntu (Community theme) | [Communauté Ubuntu](https://github.com/ubuntu/yaru) |
+| Yaru(*) (yaru)                      | 19.0.1           | Thème pour Gnome développé par la communauté Ubuntu (Community theme) | [Communauté Ubuntu](https://github.com/ubuntu/yaru) |
+
+(*) Ce paquet exite aussi en version git (`<nom>-git`).
