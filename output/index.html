@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,700|PT+Serif:400,700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Bienvenue sur Pycolore !</title>
+</head>
+<body>
+    <header class="header header--dark">
+        <nav class="nav nav--top">
+            <div class="nav__brand nav__item">Pycolore</div>
+            <ul class="nav__links">
+                <li class="nav__item link-button link-button--dark delay-2"><a href="blog/">Blog</a></li>
+                <li class="nav__item link-button link-button--dark delay-3"><a href="page.html">Mémos</a></li>
+                <li class="nav__item link-button link-button--dark delay-4"><a href="page.html">Open Source</a></li>
+            </ul>
+        </nav>
+        <div class="greeting">
+            <h1>Bienvenue sur Pycolore !</h1>
+        </div>
+    </header>
+    <svg class="header-svg" viewBox="0 0 100 5">
+        <polygon points="0,0 100,0 0,5" style="fill:#0a2472" />
+    </svg> 
+    <main>
+        <p>
+            Ce site met à disposition deux cours de Maths (niveau Prépa PSI et première année d'ingé) et des grands mémos sur des langages de programmation (Python et Ocaml) et GNU/Linux (en particulier Debian). Je partage également des astuces et des guides dans la section Blog : des petits mémos informels sont disponibles dans un dépôt sur GitHub.
+        </p>
+        <p>
+            Je fais partie d'une collaboration d'auto-entrepreneurs appelée <a href="https://www.origenial.fr">Origénial</a>, nous proposons divers services numériques.
+        </p>
+        <section>
+            <h2>Les ressources du site</h2>
+            <div class="cards">
+                <div class="card">
+                    <div class="card__header">
+                        <h3>Articles</h3>
+                    </div>
+                    <div class="card__body">
+                        <p>J'écris de temps en temps des articles, cela peut être des mini mémos, des astuces, concerner des projets... Des tas de choses !</p>
+                    </div>
+                    <div class="card__footer">
+                        <a href="blog/">Lire</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__header">
+                        <h3>Téléchargements</h3>
+                    </div>
+                    <div class="card__body">
+                        <p>C'est ici que sont listés les divers documents que j'ai rédigé.</p>
+                    </div>
+                    <div class="card__footer">
+                        <a href="page.html">Parcourir les documents</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__header">
+                        <h3>Post-it</h3>
+                    </div>
+                    <div class="card__body">
+                        <p>C'est là que j'entrepose toutes les notes rapides que je prends sur des sujets divers. A peine rédigés mais très utiles comme pense-bêtes !</p>
+                    </div>
+                    <div class="card__footer">
+                        <a href="page.html">Éplucher les post-it</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <nav class="nav nav--bottom">
+            <ul class="nav__links">
+                <li class="nav__item nav__item--title nav__item--grow">Blog
+                    <ul class="nav__sublinks">
+                        <li class="nav__subitem link-button link-button--dark"><a href="page.html">Articles</a></li>
+                        <li class="nav__subitem link-button link-button--dark"><a href="page.html">Catégories</a></li>
+                        <li class="nav__subitem link-button link-button--dark"><a href="page.html">Flux RSS</a></li>
+                    </ul>
+                </li>
+                <li class="nav__item nav__item--title nav__item--grow">Grands mémos
+                    <ul class="nav__sublinks">
+                        <li class="nav__subitem link-button link-button--dark"><a href="page.html">Python</a></li>
+                        <li class="nav__subitem link-button link-button--dark"><a href="page.html">OCaml</a></li>
+                        <li class="nav__subitem link-button link-button--dark"><a href="page.html">Debian</a></li>
+                    </ul>
+                </li>
+                <li class="nav__item nav__item--title nav__item--grow">Post-it
+                    <ul class="nav__sublinks">
+                        <li class="nav__subitem link-button link-button--dark"><a href="page.html">Notes</a></li>
+                        <li class="nav__subitem link-button link-button--dark"><a href="page.html">Extraits de code</a></li>
+                    </ul>
+                </li>
+                <li class="nav__item nav__item--title nav__item--grow">Open source
+                    <ul class="nav__sublinks">
+                        <li class="nav__subitem link-button link-button--dark"><a href="https://github.com/Arkelis">GitHub</a></li>
+                    </ul>
+                </li>
+                <li class="nav__item nav__item--title nav__item--grow">Méta
+                    <ul class="nav__sublinks">
+                        <li class="nav__subitem link-button link-button--dark"><a href="page.html">Téléchargements</a></li>
+                        <li class="nav__subitem link-button link-button--dark"><a href="page.html">A propos du site</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="footer__mentions">
+            <p>Copyright 2019 Guillaume Fayard. Ce site est créé grâce au générateur de site statique <a href="https://getnikola.com/">Nikola</a>.</p>
+        </div>
+    </footer>
+</body>
+</html>

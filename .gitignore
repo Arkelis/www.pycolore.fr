@@ -1,4 +1,4 @@
-output
+output/*
 .doit*
 cache/
 __pycache__
@@ -8,3 +8,4 @@ pages/recettes
 .env
 .python-version
 .vscode
+!output/index.html
