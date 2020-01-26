@@ -1,13 +1,7 @@
 .. title: Téléchargements
-.. hidetitle: yes
 .. slug: fichiers
-.. date: 2012-03-30 23:00:00 UTC-03:00
-.. tags: fichiers, téléchargements
 .. link:
-.. description:
-
-<h1 class="page-title">Fichiers disponibles en téléchargement</h1>
-<hr class="title-hr">
+.. description: Documents disponibles au téléchargement.
 
 # Mathématiques
 

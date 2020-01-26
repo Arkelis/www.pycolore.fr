@@ -11,17 +11,17 @@ type: text
 has_math: yes
 ---
 
-## Bienvenue
+# Bienvenue
 
 Ce site a pour unique vocation, pour l'instant, de mettre à disposition des documents PDF que j'ai écrits en LaTeX. Ce site a été créé grâce au générateur de sites statiques [Nikola](http://getnikola.com). <!-- TEASER_END -->
  A ce jour, les documents résumés ci-dessous sont disponibles.
 
-## Condensé de Mathématiques - PSI
-### Présentation
+# Condensé de Mathématiques - PSI
+## Présentation
 
 Ce document est un condensé du cours de mathématiques de classes préparatoires, option PSI (Physique et Science de l'Ingénieur). Il est très succinct et ne présente ni démonstration ni exercice, il sert plutôt de résumé de cours.
 
-### Table des matières
+## Table des matières
 
 - Algèbre
     1. Rappels et compléments d'algèbre
@@ -39,12 +39,12 @@ Ce document est un condensé du cours de mathématiques de classes préparatoire
 - Probabilités
     12. Probabilités
 
-## Mémo Python
-### Présentation
+# Mémo Python
+## Présentation
 
 J'ai commencé à écrire ce document pour en faire un pense-bête des fonctions et modules que je connaissais, histoire de ne pas toujours faire les mêmes recherches. Finalement, j'ai aussi commencé une partie sur la programmation orientée objet en Python.
 
-### Table des matières
+## Table des matières
 
 - Programmation orientée objet
       1. Constantes et types natifs
@@ -58,12 +58,12 @@ J'ai commencé à écrire ce document pour en faire un pense-bête des fonctions
       1. Librairie standard
       2. Modules à télécharger
 
-## Analyse pour l'ingénieur
-### Présentation
+# Analyse pour l'ingénieur
+## Présentation
 
 Il s'agit du cours de mathématiques que j'ai suivi à l'école d'ingénieurs Centrale Lille. Il contient les démonstrations, mais pas les exercices.
 
-### Table des matières
+## Table des matières
 
 1. Notion de mesure
     1. Tribus et mesurables
@@ -86,6 +86,6 @@ Il s'agit du cours de mathématiques que j'ai suivi à l'école d'ingénieurs Ce
     3. Espace de Schwartz
     4. Distribution tempérée et transformée de Fourier
 
-## Accéder aux fichiers
+# Accéder aux fichiers
 
 Le fichier est disponible à la [page des téléchargements](/fichiers/)
