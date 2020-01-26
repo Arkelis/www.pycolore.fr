@@ -140,7 +140,7 @@ NAVIGATION_LINKS = {
         (
             (
                 ("/blog/", "Articles"),
-                ("/categories", "Catégories"),
+                ("/blog/categories", "Catégories"),
                 ("/archive.html", "Archives"),
                 ("/rss.xml", "Flux RSS"),
             ),
@@ -423,7 +423,7 @@ WRITE_TAG_CLOUD = True
 # output / TRANSLATION[lang] / TAG_PATH / tag.html (list of posts for a tag)
 # output / TRANSLATION[lang] / TAG_PATH / tag.xml (RSS feed for a tag)
 # (translatable)
-# TAG_PATH = "categories"
+TAG_PATH = "blog/categories"
 
 # By default, the list of tags is stored in
 #     output / TRANSLATION[lang] / TAG_PATH / index.html
