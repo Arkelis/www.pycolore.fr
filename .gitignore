@@ -8,4 +8,3 @@ pages/recettes
 .env
 .python-version
 .vscode
-!output/index.html
