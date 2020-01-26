@@ -19,4 +19,4 @@ jobs:
         export PATH="$HOME/.poetry/bin:$PATH"
         poetry install
     - name: Build website
-      run: nikola build
+      run: poetry run nikola build
