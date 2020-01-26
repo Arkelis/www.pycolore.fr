@@ -16,7 +16,6 @@ jobs:
     - name: Install dependencies
       run: |
         curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python
-        export PATH="$HOME/.poetry/bin:$PATH"
-        poetry install
+        $HOME/.poetry/bin/poetry install
     - name: Build website
-      run: poetry run nikola build
+      run: $HOME/.poetry/bin/poetry run nikola build
