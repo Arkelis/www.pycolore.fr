@@ -4,3 +4,8 @@
 
 Site personnel conçu avec le générateur de site statique [Nikola](https://github.com/getnikola/nikola).
 
+## Todo
+
+- [ ] Transition entre les pages en "turbolinks"
+- [ ] Portfolio
+- [ ] Thèmes Sphinx en harmonie avec le thème Nikola
