@@ -11,7 +11,7 @@ type: text
 
 Ce guide vous permettra d'installer pas à pas Linux sur votre ordinateur. Si vous lisez ceci, c'est probablement que vous n'avez pas encore installé ou utilisé Linux (ou bien vous avez tenté, ou ça vous fait peur), on va donc bien tout détailler.
 
-Le terme [Linux](https://www.kernel.org/linux.html) désigne en fait [un noyau de système d'exploitation](https://fr.wikipedia.org/wiki/Noyau_de_système_d%27exploitation). L'équivalent de Windows serait plutôt le terme "distribution GNU/Linux", il y en [des tas](distrowatch.com)&nbsp;! On parle de GNU/Linux car ces systèmes d'exploitation utilisent le noyau Linux et des outils [GNU](https://www.gnu.org/home.fr.html). <!-- TEASER_END -->
+Le terme [Linux](https://www.kernel.org/linux.html) désigne en fait [un noyau de système d'exploitation](https://fr.wikipedia.org/wiki/Noyau_de_système_d%27exploitation). L'équivalent de Windows serait plutôt le terme "distribution GNU/Linux", il y en [des tas](https://distrowatch.com)&nbsp;! On parle de GNU/Linux car ces systèmes d'exploitation utilisent le noyau Linux et des outils [GNU](https://www.gnu.org/home.fr.html). <!-- TEASER_END -->
 
 Ce guide se focalisera sur l'installation de **[Linux Mint 19 Tara](https://linuxmint.com)**, une distribution parfaite pour débuter sur le monde de Linux&nbsp;!
 

@@ -2,7 +2,7 @@
 name = "pycolore.fr"
 version = "0.1.0"
 description = ""
-authors = ["Arkelis <guillaume.fayard@pycolore.fr>"]
+authors = ["Guillaume Fayard <guillaume.fayard@pycolore.fr>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"

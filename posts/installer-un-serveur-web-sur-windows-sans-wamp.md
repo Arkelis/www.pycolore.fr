@@ -34,19 +34,19 @@ Chocolatey est un gestionnaire de paquets qui fonctionne principalement en ligne
 
 Ouvrez Powershell en administrateur (clic droit sur l'icône Windows > Windows Powershell (admin)) et entrez la commande
 
-```powershell
+```text
 PS > Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ```
 
 # Installation et configuration de PHP
 
-```powershell
+```text
 PS > choco.exe install php --params "/ThreadSafe /InstallDir:C:\php"
 ```
 
 Le paramètre `/InstallDir` est le dossier où sera installé PHP. Si on envisage d'installer plusieurs versions de PHP, on peut par exemple opter pour `C:\php\7.2` pour la version 7.2. Pour vérifier que PHP est bien installé, on peut ouvrir cmd et demander la version de PHP&nbsp;:
 
-```powershell
+```text
 PS > php -v
 PHP 7.2.7 (cli) (built: Jun 19 2018 23:14:45) ( ZTS MSVC15 (Visual C++ 2017) x64 )
 Copyright (c) 1997-2018 The PHP Group
@@ -66,7 +66,7 @@ extension=pdo_mysql
 
 Chocolatey utilise la distribution d'[Apache Haus](https://www.apachehaus.com/).
 
-```powershell
+```text
 choco.exe install apache-httpd --params "/installLocation:C:\apache2 /port:80"
 ```
 
@@ -79,7 +79,7 @@ Les paramètres donnés permettent de définir le dossier d'installation et le p
 
 Dans le dossier d'Apache se trouve un dossier `conf` et dans celui-ci un fichier `httpd.conf`. On ajoute ces lignes au début de celui-ci&nbsp;:
 
-```conf
+```apache
 AddHandler application/x-httpd-php .php
 AddType application/x-httpd-php .php .html
 LoadModule php7_module "c:/php/php7apache2_4.dll"
@@ -90,7 +90,7 @@ Les deux premières lignes indiquent en gros à Apache qu'il faut associer les e
 
 Il faut également indiquer à Apache de lire en priorité les fichiers PHP, on cherche `DirectoryIndex` et on ajoute `index.php`&nbsp;:
 
-```conf
+```apache
 <IfModule dir_module>
     DirectoryIndex index.php index.html
 </IfModule>
@@ -118,19 +118,19 @@ En se rendant à `localhost`, on devrait alors voir&nbsp;:
 
 # Installation de MariaDB et de phpMyAdmin
 
-```powershell
+```text
 PS > choco.exe install mariadb
 ```
 
 Au moment où j'écris ce mémo, la commande précédente est cassée, il faut donc passer par le site officiel (rien de grave). Pendant l'installation, il faut créer un compte root, bien mémoriser le mot de passe&nbsp;! Pour gérer les bases de données, on peut utiliser l'outil HeidiSQL fourni avec MariaDB ou bien la célèbre interface web phpMyAdmin. Deux moyens de l'installer&nbsp;: en téléchargeant l'archive sur le site officiel ou bien avec Composer, le gestionnaire de dépendances PHP.
 
-```powershell
+```text
 PS > choco.exe install composer
 ```
 
 Puis dans le dossier `htdocs`&nbsp;:
 
-```powershell
+```text
 PS > composer create-project phpmyadmin/phpmyadmin
 ```
 
@@ -140,6 +140,6 @@ Dans le cas où on utilise l'archive, la décompresser dans le dossier `htdocs`.
 
 Avec Chocolatey, il est en général facile de tout mettre à jour, à coup de `choco.exe update all`. Cependant, cela ne prend pas en compte les arguments que l'on a saisis lors des installations&nbsp;! Pour celles-ci il faut `choco.exe update` le programme spécifique avec les même arguments. On fera alors par exemple un 
 
-```powershell
+```text
 PS > choco.exe upgrade all --except="'apache-httpd, php'"
 ```

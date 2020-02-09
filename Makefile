@@ -15,13 +15,13 @@ deploy:
 	@echo -e "$(COM_COLOR)Reconstruction du site avec Nikola...$(NO_COLOR)"
 	@echo "nikola build"; nikola build || (echo -e "\n$(ERROR_COLOR)Erreur : Nikola n'est pas installé dans l'environnement virtuel utilisé.\n$(ABORT_MSG)$(NO_COLOR)"; exit 1)
 	@echo -e "$(COM_COLOR)Mise à jour du Mémo Python en PDF...$(NO_COLOR)"
-	cp ../../../programmation/python/memo/latex/python.pdf output/python.pdf
+	cp ~/Programmation/python/memo/latex/python.pdf output/python.pdf
 	@echo -e "$(COM_COLOR)Mise à jour du Mémo Python en RST...$(NO_COLOR)"
-	rsync -a --delete ../../../programmation/python/memo/rst/_build/html/. output/python/
+	rsync -a --delete ~/Programmation/python/memo/rst/_build/html/. output/python/
 	@echo -e "$(COM_COLOR)Mise à jour du Mémo OCaml en RST...$(NO_COLOR)"
-	rsync -a --delete ../../../programmation/ocaml/Memo/build/html/. output/ocaml/
+	rsync -a --delete ~/Programmation/ocaml/Memo/build/html/. output/ocaml/
 	@echo -e "$(COM_COLOR)Mise à jour du Mémo Debian en RST...$(NO_COLOR)"
-	rsync -a --delete ../../../programmation/debian/_build/html/. output/debian/
+	rsync -a --delete ~/Programmation/debian/_build/html/. output/debian/
 	@echo -e "$(WARN_COLOR)"
 	@read -p "Transférer le site reconstruit vers $(SITE_PATH) ? Cela va modifier le dossier du site public ! ([O]ui/[N]on) " yn; \
 	case $$yn in \
@@ -34,13 +34,13 @@ update_docs:
 	@echo -e "\n$(OBJ_COLOR)Mise à jour des documents déploiement sur le serveur"
 	@echo -e               "====================================================\n"
 	@echo -e "$(COM_COLOR)Mise à jour du Mémo Python en PDF...$(NO_COLOR)"
-	cp ../../../programmation/python/memo/latex/python.pdf output/python.pdf
+	cp ~/Programmation/python/memo/latex/python.pdf output/python.pdf
 	@echo -e "$(COM_COLOR)Mise à jour du Mémo Python en RST...$(NO_COLOR)"
-	rsync -a --delete ../../../programmation/python/memo/rst/_build/html/. output/python/
+	rsync -a --delete ~/Programmation/python/memo/rst/_build/html/. output/python/
 	@echo -e "$(COM_COLOR)Mise à jour du Mémo OCaml en RST...$(NO_COLOR)"
-	rsync -a --delete ../../../programmation/ocaml/Memo/build/html/. output/ocaml/
+	rsync -a --delete ~/Programmation/ocaml/Memo/build/html/. output/ocaml/
 	@echo -e "$(COM_COLOR)Mise à jour du Mémo Debian en RST...$(NO_COLOR)"
-	rsync -a --delete ../../../programmation/debian/_build/html/. output/debian/
+	rsync -a --delete ~/Programmation/debian/_build/html/. output/debian/
 	@echo -e "$(WARN_COLOR)"
 	@read -p "Transférer le site reconstruit vers $(SITE_PATH) ? Cela va modifier le dossier du site public ! ([O]ui/[N]on) " yn; \
 	case $$yn in \
