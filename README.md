@@ -7,5 +7,5 @@ Site personnel conçu avec le générateur de site statique [Nikola](https://git
 ## Todo
 
 - [ ] Transition entre les pages en "turbolinks"
-- [ ] Portfolio
+- [x] Portfolio
 - [ ] Thèmes Sphinx en harmonie avec le thème Nikola
