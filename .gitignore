@@ -1,6 +1,6 @@
-output/*
+output
 .doit*
-cache/
+cache
 __pycache__
 pages/recettes.md
 pages/recettes
